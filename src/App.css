@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Original+Surfer&display=swap');
+
+body{
+  background-color: #212F3D;
+}
+/** Formulario */
+.DanForm{
+  
+}
+/** Textos */
+.DanAlign{
+  text-align: center;
+}
+/** Imagens */
+.DanImage{
+  width: 200;
+  height: 200;
+  object-fit: contain;
+}
+/** Titulos */
+.DanH1 {
+  background-image: linear-gradient(rgb(121, 5, 121), #212F3D);
+  padding-top: 0.8em;
+  margin-top: -20px;
+  padding-bottom: 0.8em;
+  font-family: 'Original Surfer', cursive;
+  color: white;
+  font-size: 2.6rem;
+}
+.DanH2 {
+  padding-top: 0.8em;
+  margin-top: -20px;
+  padding-bottom: 0.8em;
+  font-family: 'Original Surfer', cursive;
+  color: white;
+  font-size: 2.6rem;
+}
+/** Inputs */
+.DanInput{
+  width: 30%;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+}
+/** Botões */
+.DanBtn {
+  background-color: rgb(128, 17, 128);
+  border: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 15px;
+  width: 10%;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: 'Original Surfer', cursive;
+}
+
+.DanBtn:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.DanBtn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
